@@ -1,0 +1,23 @@
+.food-display{
+    padding-top: 60px;
+    background: linear-gradient(to bottom ,rgb(116, 114, 114) 30% , white );
+
+
+}
+.food-display h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: max(2vw ,24px);
+    font-weight: 600;
+    word-spacing: 5px;
+}
+.food-display-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    padding-bottom: 50px;
+    gap: 20px;
+    row-gap: 40px;
+}

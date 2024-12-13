@@ -1,0 +1,55 @@
+ .testimonial{
+  height: 65vh;
+  margin-top: 8vh;
+  background-color:whitesmoke;
+
+
+}
+.pizza-img{
+
+    background-size: contain;
+    background-repeat: no-repeat; 
+    /* position: absolute; */
+    height: 52vh;
+    margin-right: -73.8vw;
+    margin-top: -29vh; 
+    width: 25vw;
+    
+
+}
+.mainreview-carousel{
+    background-color: white;
+    /* margin-top: vh; */
+    position: relative;
+    
+    text-align: center;
+    color: orange;
+    display: inline;
+    
+}
+.mainreview-carousel h2{
+  padding-top: 5vh;
+}
+.review-carousel {
+    
+    width:30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 6vh;
+    background-color: white;
+    color: rgb(4, 4, 4);
+
+}
+
+.review-slide {
+      border: 2px solid #ece6e6;
+    padding: 40px;
+  }
+  
+  .slick-dots {
+    bottom: -30px; 
+  }
+ 
+   
+
+  

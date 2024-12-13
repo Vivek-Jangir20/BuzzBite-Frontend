@@ -1,0 +1,74 @@
+.frenchfriescomponent{
+    margin: auto auto;
+    margin-top: 100px;
+    font-size: max(1vw , 20px);
+    text-align: center;
+    font-weight: 500;
+    background: linear-gradient(to right ,black 30% , rgb(116, 114, 114));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.hungryhometext{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: -5vh; */
+    gap: 10px;
+}
+.hungrytext{
+    margin-left: -45vw;
+    display: flex;
+    justify-content: center;
+    gap: max(2vw , 10px);
+    margin-top: 40px;
+    color: white;
+}
+.homedelivertext{
+    margin-left: -31.5vw;
+    color: white;
+    /* word-spacing: 1px; */
+}
+.makeanorderbtndiv{
+    /* padding: 10px 20px; */
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: -40.7vw;
+}
+.makeanorderbtn{
+    padding: 10px 10px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+}
+.makeanorderbtn:hover{
+    transform: scale(0.9);
+    transition: 0.3s ease-in-out;
+}
+.friesimg{
+    margin-top: -70px;
+    margin-bottom: -6px;
+    max-width: 50vw;
+    max-height: 50vh;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.app-download-platforms img:hover{
+   transform: scale(1.05);
+}
+
+/* animation for fries img */
+.friesimg{
+    opacity: 0;
+    transform: translateY(300px);
+    transition: opacity 1.5s ease , transform 1.5s ease;
+}
+.friesimg.visible{
+    opacity: 1;
+    transform: translateY(0);
+}
+.friesimg.hidden{
+    opacity: 0;
+    transform: translateY(300px);
+}
